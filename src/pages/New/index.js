@@ -43,8 +43,8 @@ export default function New({history}){
       <input 
       id="company"
       placeholder="Sua empresa incrível"
-      value={company}
-      onChange={event => setCompany(event.target.value)}
+      value={company}setCompany
+      onChange={event => (event.target.value)}
       />   
 
       <label htmlFor="techs">TECNOLOGIAS *<span>(Separados por vírgula)</span></label>
