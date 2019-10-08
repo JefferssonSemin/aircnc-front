@@ -20,6 +20,7 @@ const [spots, setSpots] = useState([]);
 
   return (
     <>
+    <label>Listagem de lotes em andamento</label>
       <ul className="spot-list">
         {spots.map(spot => (
           <li key={spot._id}>
